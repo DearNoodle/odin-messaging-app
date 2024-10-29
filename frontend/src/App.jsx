@@ -8,7 +8,8 @@ import ChatPage from "./pages/ChatPage";
 import ProfilePage from "./pages/ProfilePage";
 import axios from "axios";
 
-export const apiUrl = "http://localhost:8080/api";
+export const apiUrl =
+  "https://odin-messaging-app-production.up.railway.app/api";
 export const UserIdContext = createContext(null);
 
 function App() {
